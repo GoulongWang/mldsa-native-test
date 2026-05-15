@@ -91,10 +91,10 @@ unsigned mld_rej_uniform_eta4_avx2(
 #endif /* !MLD_CONFIG_NO_KEYPAIR_API */
 
 #if !defined(MLD_CONFIG_NO_SIGN_API)
-#define mld_poly_decompose_32_avx2 MLD_NAMESPACE(mld_poly_decompose_32_avx2)
+#define mld_poly_decompose_32_avx2 MLD_NAMESPACE(poly_decompose_32_avx2)
 void mld_poly_decompose_32_avx2(int32_t *a1, int32_t *a0);
 
-#define mld_poly_decompose_88_avx2 MLD_NAMESPACE(mld_poly_decompose_88_avx2)
+#define mld_poly_decompose_88_avx2 MLD_NAMESPACE(poly_decompose_88_avx2)
 void mld_poly_decompose_88_avx2(int32_t *a1, int32_t *a0);
 #endif /* !MLD_CONFIG_NO_SIGN_API */
 

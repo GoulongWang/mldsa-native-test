@@ -87,6 +87,8 @@
 #include "src/native/x86_64/src/pointwise_acc_l7_avx2_asm.S"
 #include "src/native/x86_64/src/pointwise_avx2_asm.S"
 #include "src/native/x86_64/src/poly_caddq_avx2_asm.S"
+#include "src/native/x86_64/src/poly_decompose_32_avx2_asm.S"
+#include "src/native/x86_64/src/poly_decompose_88_avx2_asm.S"
 #endif /* MLD_SYS_X86_64 */
 #endif /* MLD_CONFIG_USE_NATIVE_BACKEND_ARITH */
 

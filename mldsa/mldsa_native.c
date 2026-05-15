@@ -84,8 +84,6 @@
 #if defined(MLD_SYS_X86_64)
 #include "src/native/x86_64/src/consts.c"
 #include "src/native/x86_64/src/poly_chknorm_avx2.c"
-#include "src/native/x86_64/src/poly_decompose_32_avx2.c"
-#include "src/native/x86_64/src/poly_decompose_88_avx2.c"
 #include "src/native/x86_64/src/poly_use_hint_32_avx2.c"
 #include "src/native/x86_64/src/poly_use_hint_88_avx2.c"
 #include "src/native/x86_64/src/polyz_unpack_17_avx2.c"
