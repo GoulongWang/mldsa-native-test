@@ -125,6 +125,7 @@ echo '1+1;;' | nc -w 5 127.0.0.1 2012
   * AArch64 pointwise multiplication-accumulation (l=4): [mld_polyvecl_pointwise_acc_montgomery_l4_aarch64_asm.S](aarch64/mldsa/mld_polyvecl_pointwise_acc_montgomery_l4_aarch64_asm.S)
   * AArch64 pointwise multiplication-accumulation (l=5): [mld_polyvecl_pointwise_acc_montgomery_l5_aarch64_asm.S](aarch64/mldsa/mld_polyvecl_pointwise_acc_montgomery_l5_aarch64_asm.S)
   * AArch64 pointwise multiplication-accumulation (l=7): [mld_polyvecl_pointwise_acc_montgomery_l7_aarch64_asm.S](aarch64/mldsa/mld_polyvecl_pointwise_acc_montgomery_l7_aarch64_asm.S)
+  * AArch64 rejection sampling: [rej_uniform_aarch64_asm.S](aarch64/mldsa/rej_uniform_aarch64_asm.S)
 - FIPS202:
   * Keccak-F1600 using lazy rotations[^HYBRID]: [keccak_f1600_x1_scalar_aarch64_asm.S](aarch64/mldsa/keccak_f1600_x1_scalar_aarch64_asm.S)
   * Keccak-F1600 using v8.4-A SHA3 instructions: [keccak_f1600_x1_v84a_aarch64_asm.S](aarch64/mldsa/keccak_f1600_x1_v84a_aarch64_asm.S)
@@ -138,6 +139,7 @@ echo '1+1;;' | nc -w 5 127.0.0.1 2012
 - ML-DSA Arithmetic:
   * x86_64 forward NTT: [ntt_avx2_asm.S](x86_64/mldsa/ntt_avx2_asm.S)
   * x86_64 inverse NTT: [intt_avx2_asm.S](x86_64/mldsa/intt_avx2_asm.S)
+  * x86_64 poly_caddq: [poly_caddq_avx2_asm.S](x86_64/mldsa/poly_caddq_avx2_asm.S)
   * x86_64 NTT unpack: [nttunpack_avx2_asm.S](x86_64/mldsa/nttunpack_avx2_asm.S)
   * x86_64 pointwise multiplication: [pointwise_avx2_asm.S](x86_64/mldsa/pointwise_avx2_asm.S)
   * x86_64 pointwise multiplication-accumulation (l=4): [pointwise_acc_l4_avx2_asm.S](x86_64/mldsa/pointwise_acc_l4_avx2_asm.S)
